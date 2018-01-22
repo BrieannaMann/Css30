@@ -1,0 +1,51 @@
+/* ========================================
+
+    CODE YOUR STYLES BELOW!
+
+   ====================================== */
+
+/* Morder layout #1 */
+
+.layout1 article{
+  width: 58%;
+  float: left;
+}
+
+.layout1 aside{
+  width: 40%;
+  float: right;
+}
+
+.layout1 footer{
+  clear: both;
+}
+
+
+/* Morder layout #2 */
+
+.layout2 header .logo{
+  width: 20%;
+  float: left;
+  margin: 0;
+}
+
+.layout2 header nav{
+  width: 78%;
+  float: right;
+  margin: 0;
+}
+.layout2 header::after{
+  display: table;
+  content: "";
+}
+.layout2 aside{
+  width: 40%;
+  float: right;
+}
+.layout2 article{
+  width: 40%;
+  float: right;
+}
+.layout2 footer{
+  clear: both;
+}
